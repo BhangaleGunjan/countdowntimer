@@ -10,8 +10,8 @@ A simple, elegant web application that allows you to create multiple countdown t
 - Clean, modern UI with Google Fonts and subtle animations
 
 ## Screenshots: 
-![Countdown Timer UI](images/default_page.png)
-![Timer Start and Finish](images/timer.png)
+![Countdown Timer UI](images/Default_page.png)
+![Timer Start and Finish](images/Timer.png)
 
 ## How to Use: 
 

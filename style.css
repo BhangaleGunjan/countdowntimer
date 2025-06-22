@@ -1,0 +1,77 @@
+/* === Base Styling for the Page === */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;              
+  color: #f0f0f0;                       
+  display: flex;                         
+  justify-content: center;
+  padding: 20px;
+}
+
+/* === Main Container === */
+.container {
+  width: 100%;
+  max-width: 600px;                     
+  background: #1e1e1e;                   
+  padding: 30px;
+  border-radius: 12px;                   
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+/* === Date-Time Input Field === */
+input[type="datetime-local"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;                    
+}
+
+/* === General Button Style (Add / Delete) === */
+button {
+  padding: 10px 20px;
+  background: #00aaff;                  
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* === Individual Timer Block === */
+.timer {
+  background: #2a2a2a;               
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;                   
+  transition: 0.3s ease;
+}
+
+/* === Styling for Timers That Are Complete === */
+.timer.completed {
+  animation: pulse 0.7s infinite;        
+  background-color: #222;                
+  border: 2px solid #ff4747;             
+}
+
+/* === Timer Title === */
+.timer h3 {
+  margin: 0 0 10px;                  
+}
+
+/* === Timer Countdown Text === */
+.timer p {
+  font-family: 'Orbitron', sans-serif;  
+  font-size: 22px;
+  margin: 0;
+}
+
+/* === Animation for Completed Timer === */
+@keyframes pulse {
+  0%   { box-shadow: 0 0 10px red; }
+  50%  { box-shadow: 0 0 20px red; }
+  100% { box-shadow: 0 0 10px red; }
+}

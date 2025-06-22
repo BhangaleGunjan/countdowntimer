@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multi Countdown Timer</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Multi Countdown Timer</h1>
+
+    <!-- Date & time input -->
+    <label for="datetime">Set Date & Time:</label>
+    <input type="datetime-local" id="datetime">
+
+    <!-- Button to add new countdown -->
+    <button id="addBtn">Add Countdown</button>
+
+    <!-- Container where timers will appear -->
+    <div id="timers"></div>
+  </div>
+
+  <!-- Sound to play when timer ends -->
+  <audio id="alarm" src="alarm.mp3" preload="auto"></audio>
+
+  <!-- Main JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
